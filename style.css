@@ -224,6 +224,9 @@ input.error {
     margin: 5px;
     border: none;
 }
+#ContactSites img {
+    margin: 15px;
+}
 
 /* Accolades */
 .bubbleTop {

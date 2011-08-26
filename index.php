@@ -221,13 +221,12 @@ else if (isset($_GET["formErrors"])) {
 			</table>
 		</form>
 		<div id="ContactSites">
-			<!-- Facebook Badge -->
-			<a href="http://www.facebook.com/frank.pernicano" target="_TOP" title="...on Facebook"><img src="http://badge.facebook.com/badge/1251219939.2591.389980942.png" width="300" height="112" /></a>
-			<!-- LinkedIn Badge -->
-			<a href="http://www.linkedin.com/in/fpernicano" title="...on LinkedIn"><img src="img/linkedIn.jpg" width="300" height="112" /></a>
-			<!-- jQuery Meetups Badge -->
-			<!-- <a href="http://meetups.jquery.it/profile/FrankTPernicano"><img src="img/jqueryMeetups.jpg" width="120" height="163" /></a> -->
-			<embed wmode="opaque" src="http://static.ning.com/socialnetworkmain/widgets/index/swf/badge.swf?v=201107061900" FlashVars="backgroundColor=0xFFFFFF&textColor=0x000000&config=http%3A%2F%2Fmeetups.jquery.com%2Fmain%2Fbadge%2FshowPlayerConfig%3Fxg_source%3Dbadge%26size%3Dsmall%26username%3D2p2azdxfld246" width="206" height="104" bgColor="#FFFFFF" scale="noscale" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"> </embed>
+			<h3>Frank around the web:</h3>
+			<a href="https://github.com/EverybodyLovesFrank"><img src="img/icons/git.jpg"/></a>
+			<a href="https://www.facebook.com/frank.pernicano"><img src="img/icons/face.jpg"/></a>
+			<a href="http://meetups.jquery.com/group/centralflorida"><img src="img/icons/jquery.jpg"/></a>
+			<a href="http://www.linkedin.com/in/fpernicano"><img src="img/icons/linked.jpg"/></a>
+			<a href="https://plus.google.com/117309864495177542659"><img src="img/icons/goog.jpg"/></a>
 		</div>
 	</div>
 	<div class="moduleBottom"></div>
