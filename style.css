@@ -1,0 +1,264 @@
+body {
+	background: #000;
+	color:white;
+	font-family:Tahoma;
+	font-size:90%;
+    width: 1030px;
+}
+a {
+    color:cyan;
+    text-decoration: none;
+}
+.notFound {
+    font-weight: bold;
+}
+
+#QrImage {
+    background-image: url(img/frankQRThumb.gif);
+	float: right;
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+#QrLarge {
+    margin: 0 80px;
+}
+#BodyTitle {
+    background: url(img/header.png) no-repeat 0 0;
+    text-indent:-9999px;
+    width: 489px;
+    height: 83px;
+}
+#TopModule {
+    background: url(img/topModule.jpg) no-repeat 0 0;
+    width: 1020px;
+    height: 302px;
+    border: none;
+    padding: 3px 22px;
+}
+#TopModule p {
+    width: 560px;
+}
+.title {
+    font-size: 18pt;
+    font-weight: bold;
+}
+#TopModule .body {
+    font-size: 12pt;
+}
+.moduleTop {
+    background: url(img/moduleTop.gif) no-repeat 0 0;
+    width: 1000px;
+    height: 14px;
+}
+.moduleBottom {
+    background: url(img/moduleBottom.gif) no-repeat 0 0;
+    width: 1000px;
+    height: 14px;
+}
+
+
+
+/* Module navigation */
+h2 {
+    color: orange;
+}
+#Tabs {
+    margin-top: 30px;
+}
+.tabs {
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px;
+}
+a:hover,
+a:active {
+    color: red;
+}
+
+
+/* Modules global */
+#ModuleWork,
+#ModuleOther,
+#ModuleAcc,
+#ModuleContact,
+#ModuleFooter,
+#ContactThanks {
+    width: 1000px;
+    margin: 10px;
+}
+.moduleBody {
+    font-size: 90%;
+    padding: 1px 10px;
+    background: #353535;
+}
+.moduleBody .title {
+    font-size: 100%;
+}
+#ModuleFooter {
+    margin-top:50px;
+    text-align: right;
+}
+h3 {
+    font-size: 150%;
+    color: orange;
+}
+
+
+
+/* work history */
+.workImage {
+    float: left;
+    margin: 5px;
+}
+.historyBody {
+    clear: both;
+}
+hr {
+    margin: 18px 0;
+}
+
+
+
+/* other sites */
+h4 {
+    font-weight: bold;
+    margin: 5px;
+}
+.boxgrid { 
+    width: 250px; 
+    height: 178px; 
+    margin:20px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.boxgrid img {
+    border: 0;
+}
+.boxgrid p { 
+    padding: 0;
+    margin: 0 5px;
+}
+    
+.boxcaption {
+    position: absolute;
+    background: #000;
+    height: 150px;
+    width: 100%;
+}
+#OtherBox {
+    display: block;
+    height: 650px;
+    padding-left: 50px;
+}
+/* end other */
+
+
+/* Contact module */
+input, textarea { 
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+textarea { 
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+}
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+.form label { 
+	margin-left: 10px; 
+	color: #999999; 
+}
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.submit {
+    font-weight:bold;
+    margin: 5px 144px;
+}
+.error {
+    color: red;
+    font-weight: bold;
+    vertical-align: middle;
+}
+textarea.error,
+input.error {
+    background: yellow;
+}
+.thanks {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+#ContactSites {
+    margin-top: 40px;
+}
+#ContactSites a,
+#ContactSites img,
+#ContactSites embed {
+    margin: 5px;
+    border: none;
+}
+
+/* Accolades */
+.bubbleTop {
+    width: 940px;
+    height: 13px;
+    background: url(img/bubbleTop.gif) no-repeat 0 0;
+    margin-top: 30px;
+}
+
+.bubbleBody p {
+    margin: 0;
+    padding: 0 10px;
+    background-color: white;
+    width: 920px;
+    color: black;
+    font-family: Book Antiqua;
+    font-size: 120%;
+}
+
+.bubbleBottom {
+    width: 941px;
+    height: 30px;
+    background: url(img/bubbleBottom.gif) no-repeat 0 0;
+}
+
+.accoladesBy {
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* hide all modules */
+#ModuleOther,
+#ModuleAcc,
+#QrLarge,
+#ModuleContact,
+.otherHidden {
+    display: none;
+}
