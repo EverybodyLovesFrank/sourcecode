@@ -1,5 +1,12 @@
 <?php
 
+/*#######################################
+*
+*	Author: Frank T Pernicano
+*	formMail for EveryBodyLovesFrank.com
+*
+########################################*/
+
 $okToSend = false;
 
 $mailName = $_REQUEST['name'];
