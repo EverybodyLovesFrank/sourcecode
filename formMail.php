@@ -18,7 +18,7 @@ $message = $_REQUEST['message'];
 $mailName = ereg_replace("[^A-Za-z0-9 ]", "", $mailName);
 $email = ereg_replace("[^A-Za-z0-9@\.]", "", $email);
 $phone = ereg_replace("[^0-9]", "", $phone);
-//$message = ereg_replace("[^A-Za-z0-9]", "", $message);
+$message = ereg_replace("[^A-Za-z0-9&_=:;,+-\.!?@#$%()' ]", "", $message);
 
 // server side errors
 if ($mailName!='' && $email!='' && $message!='') {
