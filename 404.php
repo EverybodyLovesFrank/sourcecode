@@ -6,7 +6,7 @@
 	<title> EverybodyLovesFrank.com: PAGE NOT FOUND </title>
 	<meta name="Author" content="Frank T. Pernicano" />
 	<meta name="description" content="Frank Pernicano, Frank T. Pernicano, web developer, web applications developer" />
-	<link type="text/css" rel="stylesheet" href="style.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.everybodylovesfrank.com/style.css" />
 </head>
  
 <body>
