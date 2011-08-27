@@ -6,7 +6,7 @@ body {
     width: 1030px;
 }
 a {
-    color:cyan;
+    color:aqua;
     text-decoration: none;
 }
 .notFound {
@@ -165,11 +165,6 @@ input, textarea {
 	outline: 0;
 	font: normal 13px/100% Verdana, Tahoma, sans-serif;
 	width: 200px;
-	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
-	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
-	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
-	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
-	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
 }
 textarea { 
 	width: 400px;
@@ -179,8 +174,7 @@ textarea {
 }
 input:hover, textarea:hover,
 input:focus, textarea:focus { 
-	border-color: #C9C9C9; 
-	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+	border-color: yellow;
 }
 .form label { 
 	margin-left: 10px; 
@@ -193,8 +187,6 @@ input:focus, textarea:focus {
 	border: 0;
 	font-size: 14px;
 	color: #FFFFFF;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 }
 .submit {
     font-weight:bold;
@@ -262,7 +254,7 @@ input.error {
     background-color: white;
     width: 920px;
     color: black;
-    font-family: Book Antiqua;
+    font-family: "Book Antiqua";
     font-size: 120%;
 }
 
