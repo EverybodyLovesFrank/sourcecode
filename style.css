@@ -209,6 +209,9 @@ textarea.error,
 input.error {
     background: yellow;
 }
+#ModuleContact .topAlign {
+    vertical-align: top;
+}
 .thanks {
     color: yellow;
     font-size: 20px;
@@ -218,15 +221,32 @@ input.error {
 #ContactSites {
     margin-top: 40px;
 }
-#ContactSites a,
 #ContactSites img,
 #ContactSites embed {
     margin: 5px;
     border: none;
 }
-#ContactSites img {
-    margin: 15px;
+
+#GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn {
+    width: 150px;
+    height: 150px;
+    display: table-cell;
+    text-indent: -999px;
+    padding: 20px;
 }
+#GitBtn { background: url(img/icons/gitOff.jpg) no-repeat 0 0; }
+#GitBtn:hover { background: url(img/icons/git.jpg) no-repeat 0 0; }
+#FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 0 0; }
+#FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 0 0; }
+#FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 0 0; }
+#FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 0 0; }
+#JqueryBtn { background: url(img/icons/jqueryOff.jpg) no-repeat 0 0; }
+#JqueryBtn:hover { background: url(img/icons/jquery.jpg) no-repeat 0 0; }
+#LinkedBtn { background: url(img/icons/linkedOff.jpg) no-repeat 0 0; }
+#LinkedBtn:hover { background: url(img/icons/linked.jpg) no-repeat 0 0; }
+#GoogBtn { background: url(img/icons/googOff.jpg) no-repeat 0 0; }
+#GoogBtn:hover { background: url(img/icons/goog.jpg) no-repeat 0 0; }
+/* End contact */
 
 /* Accolades */
 .bubbleTop {
