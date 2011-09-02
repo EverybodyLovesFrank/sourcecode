@@ -222,16 +222,13 @@ else if (isset($_GET["formErrors"])) {
 		</form>
 		<div id="ContactSites">
 			<h3>Frank around the web:</h3>
-			<a href="https://github.com/EverybodyLovesFrank"><span id="GitBtn">GitHub</span></a>
-			<a href="https://www.facebook.com/frank.pernicano"><span id="FaceBtn">Facebook</span></a>
-			<a href="http://meetups.jquery.com/group/centralflorida"><span id="JqueryBtn">JQuery Meetups</span></a>
-			<a href="http://www.linkedin.com/in/fpernicano"><span id="LinkedBtn">Linked In</span></a>
-			<a href="https://plus.google.com/117309864495177542659"><span id="GoogBtn">Google +</span></a>
-			<!-- <a href="https://github.com/EverybodyLovesFrank"><img src="img/icons/git.jpg"/></a>
-			<a href="https://www.facebook.com/frank.pernicano"><img src="img/icons/face.jpg"/></a>
-			<a href="http://meetups.jquery.com/group/centralflorida"><img src="img/icons/jquery.jpg"/></a>
-			<a href="http://www.linkedin.com/in/fpernicano"><img src="img/icons/linked.jpg"/></a>
-			<a href="https://plus.google.com/117309864495177542659"><img src="img/icons/goog.jpg"/></a> -->
+			<div id="ContactIcons">
+				<a href="https://github.com/EverybodyLovesFrank"><span id="GitBtn">GitHub</span></a>
+				<a href="https://www.facebook.com/frank.pernicano"><span id="FaceBtn">Facebook</span></a>
+				<a href="http://meetups.jquery.com/group/centralflorida"><span id="JqueryBtn">JQuery Meetups</span></a>
+				<a href="http://www.linkedin.com/in/fpernicano"><span id="LinkedBtn">Linked In</span></a>
+				<a href="https://plus.google.com/117309864495177542659"><span id="GoogBtn">Google +</span></a>
+			</div>
 		</div>
 	</div>
 	<div class="moduleBottom"></div>

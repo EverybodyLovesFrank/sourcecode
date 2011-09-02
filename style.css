@@ -210,6 +210,10 @@ input.error {
     font-weight: bold;
     margin: 0;
 }
+#ContactIcons {
+    width: 100%;
+    height: 160px;
+}
 #ContactSites {
     margin-top: 40px;
 }
@@ -222,22 +226,22 @@ input.error {
 #GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn {
     width: 150px;
     height: 150px;
-    display: table-cell;
     text-indent: -999px;
     padding: 20px;
+    float: left;
 }
-#GitBtn { background: url(img/icons/gitOff.jpg) no-repeat 0 0; }
-#GitBtn:hover { background: url(img/icons/git.jpg) no-repeat 0 0; }
-#FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 0 0; }
-#FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 0 0; }
-#FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 0 0; }
-#FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 0 0; }
-#JqueryBtn { background: url(img/icons/jqueryOff.jpg) no-repeat 0 0; }
-#JqueryBtn:hover { background: url(img/icons/jquery.jpg) no-repeat 0 0; }
-#LinkedBtn { background: url(img/icons/linkedOff.jpg) no-repeat 0 0; }
-#LinkedBtn:hover { background: url(img/icons/linked.jpg) no-repeat 0 0; }
-#GoogBtn { background: url(img/icons/googOff.jpg) no-repeat 0 0; }
-#GoogBtn:hover { background: url(img/icons/goog.jpg) no-repeat 0 0; }
+#GitBtn { background: url(img/icons/gitOff.jpg) no-repeat 21px 0; }
+#GitBtn:hover { background: url(img/icons/git.jpg) no-repeat 21px 0; }
+#FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 21px 0; }
+#FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 21px 0; }
+#FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 21px 0; }
+#FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 21px 0; }
+#JqueryBtn { background: url(img/icons/jqueryOff.jpg) no-repeat 21px 0; }
+#JqueryBtn:hover { background: url(img/icons/jquery.jpg) no-repeat 21px 0; }
+#LinkedBtn { background: url(img/icons/linkedOff.jpg) no-repeat 21px 0; }
+#LinkedBtn:hover { background: url(img/icons/linked.jpg) no-repeat 21px 0; }
+#GoogBtn { background: url(img/icons/googOff.jpg) no-repeat 21px 0; }
+#GoogBtn:hover { background: url(img/icons/goog.jpg) no-repeat 21px 0; }
 /* End contact */
 
 /* Accolades */
