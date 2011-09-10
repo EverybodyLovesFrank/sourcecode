@@ -48,18 +48,6 @@ a {
 #TopModule .body {
     font-size: 12pt;
 }
-.moduleTop {
-    background: url(img/moduleTop.gif) no-repeat 0 0;
-    width: 1000px;
-    height: 14px;
-}
-.moduleBottom {
-    background: url(img/moduleBottom.gif) no-repeat 0 0;
-    width: 1000px;
-    height: 14px;
-}
-
-
 
 /* Module navigation */
 h2 {
@@ -90,10 +78,12 @@ a:active {
     width: 1000px;
     margin: 10px;
 }
+
 .moduleBody {
     font-size: 90%;
     padding: 1px 10px;
     background: #353535;
+    border-radius: 8px;
 }
 .moduleBody .title {
     font-size: 100%;
@@ -174,7 +164,7 @@ textarea {
 }
 input:hover, textarea:hover,
 input:focus, textarea:focus { 
-	border-color: yellow;
+	border-color: red;
 }
 .form label { 
 	margin-left: 10px; 
