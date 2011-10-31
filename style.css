@@ -213,6 +213,11 @@ input.error {
     border: none;
 }
 
+#ContactRight {
+    float: right;
+    padding: 15px 15px 0 0;
+}
+
 #GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn {
     width: 150px;
     height: 150px;

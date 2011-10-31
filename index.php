@@ -12,6 +12,14 @@
  
 <body>
 
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="QrImage">
 </div>
 
@@ -45,7 +53,7 @@ else if (isset($_GET["formErrors"])) {
 <div id="TopModule">
 	<h2>Web Application Architecture &amp; Development</h2>
 	<p class="body">XHTML, CSS, XML, JavaScript, PHP, JSP, SQL, browser compatibility, JS/CSS frameworks, software estimation, technical project management, server administration</p>
-	<p class="subBody">I have hard-core ninja-like development experience with some of the largest companies in the world like Chase, Disney, AAA, and Johnson &amp; Johnson</p>
+	<p class="body">I have hard-core ninja-like development experience with some of the largest companies in the world like Chase, Disney, AAA, and Johnson &amp; Johnson</p>
 
 	<div id="Tabs">
 		<a class="tabs" id="ShowWorkHistory">Work History</a>
@@ -195,6 +203,10 @@ else if (isset($_GET["formErrors"])) {
 	<div id="ModuleContact" class="moduleShowHide">
 		<!-- <div class="moduleTop"></div> -->
 		<div class="moduleBody">
+			<div id="ContactRight">
+				<div class="fb-like-box" data-href="https://www.facebook.com/pages/EverybodyLovesFrank/235742986487391" data-width="200" data-colorscheme="dark" data-show-faces="false" data-border-color="black" data-stream="true" data-header="false"></div>
+			</div>
+
 			<form id="ContactForm" method="post" action="formMail.php">
 				<h3>Contact me:</h3>
 				<table>
@@ -219,6 +231,7 @@ else if (isset($_GET["formErrors"])) {
 				</tr>
 				</table>
 			</form>
+			
 			<div id="ContactSites">
 				<h3>Frank around the web:</h3>
 				<div id="ContactIcons">
