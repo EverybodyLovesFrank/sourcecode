@@ -12,6 +12,7 @@
  
 <body>
 
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) {return;}
@@ -204,7 +205,7 @@ else if (isset($_GET["formErrors"])) {
 		<!-- <div class="moduleTop"></div> -->
 		<div class="moduleBody">
 			<div id="ContactRight">
-				<div class="fb-like-box" data-href="https://www.facebook.com/pages/EverybodyLovesFrank/235742986487391" data-width="200" data-colorscheme="dark" data-show-faces="false" data-border-color="black" data-stream="true" data-header="false"></div>
+				<div class="fb-like-box" data-href="https://www.facebook.com/pages/EverybodyLovesFrank/235742986487391" data-width="200" data-height="350" data-colorscheme="dark" data-show-faces="true" data-stream="false" data-header="true"></div>
 			</div>
 
 			<form id="ContactForm" method="post" action="formMail.php">
