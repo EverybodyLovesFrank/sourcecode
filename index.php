@@ -241,6 +241,7 @@ else if (isset($_GET["formErrors"])) {
 					<a href="http://meetups.jquery.com/group/centralflorida"><span id="JqueryBtn">JQuery Meetups</span></a>
 					<a href="http://www.linkedin.com/in/fpernicano"><span id="LinkedBtn">Linked In</span></a>
 					<a href="https://plus.google.com/117309864495177542659"><span id="GoogBtn">Google +</span></a>
+					<a href="http://teamtreehouse.com/frankpernicano"><span id="TreeBtn">treehouse</span></a>
 				</div>
 			</div>
 		</div>
@@ -258,6 +259,21 @@ else if (isset($_GET["formErrors"])) {
 	</div>
 </div>
 
+<script>
+	// preloader for "frank around the web" buttons
+	gitb = new Image();
+	gitb.src = 'img/icons/git.jpg';
+	faceb = new Image();
+	faceb.src = 'img/icons/face.jpg';
+	jqb = new Image();
+	jqb.src = 'img/icons/jquery.jpg';
+	lnkb = new Image();
+	lnkb.src = 'img/icons/linked.jpg';
+	goob = new Image();
+	goob.src = 'img/icons/goog.jpg';
+	treeb = new Image();
+	treeb.src = 'img/icons/tree.jpg';
+</script>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript">

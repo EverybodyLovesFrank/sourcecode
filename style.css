@@ -218,17 +218,15 @@ input.error {
     padding: 15px 15px 0 0;
 }
 
-#GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn {
-    width: 150px;
-    height: 150px;
+#GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn, #TreeBtn {
+    width: 100px;
+    height: 100px;
     text-indent: -999px;
-    padding: 20px;
+    padding: 30px;
     float: left;
 }
 #GitBtn { background: url(img/icons/gitOff.jpg) no-repeat 21px 0; }
 #GitBtn:hover { background: url(img/icons/git.jpg) no-repeat 21px 0; }
-#FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 21px 0; }
-#FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 21px 0; }
 #FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 21px 0; }
 #FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 21px 0; }
 #JqueryBtn { background: url(img/icons/jqueryOff.jpg) no-repeat 21px 0; }
@@ -237,6 +235,8 @@ input.error {
 #LinkedBtn:hover { background: url(img/icons/linked.jpg) no-repeat 21px 0; }
 #GoogBtn { background: url(img/icons/googOff.jpg) no-repeat 21px 0; }
 #GoogBtn:hover { background: url(img/icons/goog.jpg) no-repeat 21px 0; }
+#TreeBtn { background: url(img/icons/treeOff.jpg) no-repeat 21px 0; }
+#TreeBtn:hover { background: url(img/icons/tree.jpg) no-repeat 21px 0; }
 /* End contact */
 
 /* Accolades */
