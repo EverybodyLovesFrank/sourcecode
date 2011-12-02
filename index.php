@@ -8,6 +8,10 @@
 	<meta name="description" content="Frank Pernicano, Frank T. Pernicano, web developer, web applications developer" />
 	
 	<link type="text/css" rel="stylesheet" href="style.css" />
+	<link media="only screen and (max-device-width: 480px) and (min-device-width: 320px)" href="mobile.css" type="text/css" rel="stylesheet" />
+
+	<meta name="viewport" content="width=device-width" />
+
 </head> 
  
 <body>

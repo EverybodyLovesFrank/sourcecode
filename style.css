@@ -271,6 +271,92 @@ input.error {
     text-align: right;
 }
 
+/* ######################
+ Mobile overrides 
+########################*/
+@media only screen and (max-width:1024px) {
+    body {
+        width: 480px;
+    }
+    #Tabs, .tabs {
+        margin: 0;
+    }
+    .tabs {
+        margin-right: 15px;
+    }
+    #QrImage {
+        display: none;
+    }
+    #TopModule p {
+        width: auto;
+    }
+    #TopModule {
+        background: none repeat scroll 0 0 #353535;
+        width: 415px;
+        height: 302px;
+        border: none;
+        padding: 3px 22px;
+        margin: 10px;
+        border-radius: 8px;
+    }
+    #ModuleWork, #ModuleOther, #ModuleAcc, #ModuleContact, #ModuleFooter, #ContactThanks {
+        width: auto;
+    }
+    .boxgrid {
+        float: none;
+    }
+    .boxcaption {
+        position: relative;
+    }
+    #ContactRight {
+        display: none;
+    }
+    .bubbleTop, .bubbleBottom {
+        display: none;
+    }
+    .bubbleBody p {
+        width: auto;
+    }
+    textarea {
+        width: 305px;
+    }
+    #ContactSites {
+        margin: 40px 0;
+    }
+    #ContactIcons {
+        height: auto;
+    }
+    #GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn, #TreeBtn,
+    #GitBtn:hover, #FaceBtn:hover, #JqueryBtn:hover, #LinkedBtn:hover, #GoogBtn:hover, #TreeBtn:hover {
+        float: none;
+        background: none;
+        width: auto;
+        height: auto;
+        text-indent: 0;
+        padding: 0;
+    }
+    #ContactIcons a {
+        margin-left: 10px;
+    }
+    .boxcaption, .cover {
+        display: block
+    }
+    .boxgrid {
+        height: auto;
+    }
+    .boxcaption {
+        background: none;
+        width: auto;
+        height: auto;
+    }
+    #ModuleOther .moduleBody {
+        height: 2000px;
+    }
+}
+/* ######################
+ END Mobile overrides 
+########################*/
+
 /* hide all modules */
 #ModuleOther,
 #ModuleAcc,
