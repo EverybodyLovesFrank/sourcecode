@@ -1,4 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--
+	This site uses "Responsive web design", re-size your
+	browser window making it thin and tall, and you'll see
+	the re-sizing magic.  Or just view the site on a mobile
+	device!  Thanks for stopping by!
+													-- Frank
+-->
  
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
