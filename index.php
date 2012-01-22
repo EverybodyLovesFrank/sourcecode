@@ -22,7 +22,7 @@
 <body>
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script type="text/javascript">(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) {return;}
   js = d.createElement(s); js.id = id;
@@ -268,7 +268,7 @@ else if (isset($_GET["formErrors"])) {
 	</div>
 </div>
 
-<script>
+<script type="text/javascript">
 	// preloader for "frank around the web" buttons
 	gitb = new Image();
 	gitb.src = 'img/icons/git.jpg';
