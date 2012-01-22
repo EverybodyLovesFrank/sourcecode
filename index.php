@@ -5,7 +5,7 @@
 	browser window making it thin and tall, and you'll see
 	the re-sizing magic.  Or just view the site on a mobile
 	device!  Thanks for stopping by!
-	-- Frank
+	- Frank
 -->
  
 <html xmlns="http://www.w3.org/1999/xhtml">
