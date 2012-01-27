@@ -52,7 +52,7 @@ a {
 /* Module navigation */
 h2 {
     color: orange;
-    text-shadow: -1px -1px 0 #000000;
+    text-shadow: -2px 2px 2px #000;
 }
 #Tabs {
     margin-top: 30px;
@@ -62,7 +62,7 @@ h2 {
     font-weight: bold;
     cursor: pointer;
     margin: 30px;
-    text-shadow: -1px -1px 0 #000000;
+    text-shadow: -1px -1px 0 #000;
 }
 a:hover,
 a:active {
@@ -97,7 +97,7 @@ a:active {
 h3 {
     font-size: 150%;
     color: orange;
-    text-shadow: -1px -1px 0 #000000;
+    text-shadow: -2px 2px 2px #000;
 }
 
 
