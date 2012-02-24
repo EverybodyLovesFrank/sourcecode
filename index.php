@@ -250,7 +250,10 @@ else if (isset($_GET["formErrors"])) {
 					<a href="http://meetups.jquery.com/group/centralflorida"><span id="JqueryBtn">JQuery Meetups</span></a>
 					<a href="http://www.linkedin.com/in/fpernicano"><span id="LinkedBtn">Linked In</span></a>
 					<a href="https://plus.google.com/117309864495177542659"><span id="GoogBtn">Google +</span></a>
+					<a href="http://www.twitter.com/KeyboardDevil"><span id="TwitBtn">Twitter</span></a>
 					<a href="http://teamtreehouse.com/frankpernicano"><span id="TreeBtn">treehouse</span></a>
+					<a href="http://dribbble.com/EverybodyLovesFrank"><span id="DribBtn">Dribble</span></a>
+					<a href="http://geekli.st/KeyboardDevil"><span id="GeekBtn">GeekLi.st</span></a>
 				</div>
 			</div>
 		</div>

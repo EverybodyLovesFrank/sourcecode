@@ -221,25 +221,31 @@ input.error {
     padding: 15px 15px 0 0;
 }
 
-#GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn, #TreeBtn {
-    width: 100px;
-    height: 100px;
+#GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn, #TreeBtn, #DribBtn, #GeekBtn, #TwitBtn {
+    width: 46px;
+    height: 60px;
     text-indent: -999px;
     padding: 30px;
     float: left;
 }
-#GitBtn { background: url(img/icons/gitOff.jpg) no-repeat 21px 0; }
-#GitBtn:hover { background: url(img/icons/git.jpg) no-repeat 21px 0; }
-#FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 21px 0; }
-#FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 21px 0; }
-#JqueryBtn { background: url(img/icons/jqueryOff.jpg) no-repeat 21px 0; }
-#JqueryBtn:hover { background: url(img/icons/jquery.jpg) no-repeat 21px 0; }
-#LinkedBtn { background: url(img/icons/linkedOff.jpg) no-repeat 21px 0; }
-#LinkedBtn:hover { background: url(img/icons/linked.jpg) no-repeat 21px 0; }
-#GoogBtn { background: url(img/icons/googOff.jpg) no-repeat 21px 0; }
-#GoogBtn:hover { background: url(img/icons/goog.jpg) no-repeat 21px 0; }
-#TreeBtn { background: url(img/icons/treeOff.jpg) no-repeat 21px 0; }
-#TreeBtn:hover { background: url(img/icons/tree.jpg) no-repeat 21px 0; }
+#GitBtn { background: url(img/icons/gitOff.jpg) no-repeat 12px 0; }
+#GitBtn:hover { background: url(img/icons/git.jpg) no-repeat 12px 0; }
+#FaceBtn { background: url(img/icons/faceOff.jpg) no-repeat 12px 0; }
+#FaceBtn:hover { background: url(img/icons/face.jpg) no-repeat 12px 0; }
+#JqueryBtn { background: url(img/icons/jqueryOff.jpg) no-repeat 12px 0; }
+#JqueryBtn:hover { background: url(img/icons/jquery.jpg) no-repeat 12px 0; }
+#LinkedBtn { background: url(img/icons/linkedOff.jpg) no-repeat 12px 0; }
+#LinkedBtn:hover { background: url(img/icons/linked.jpg) no-repeat 12px 0; }
+#GoogBtn { background: url(img/icons/googOff.jpg) no-repeat 12px 0; }
+#GoogBtn:hover { background: url(img/icons/goog.jpg) no-repeat 12px 0; }
+#TreeBtn { background: url(img/icons/treeOff.jpg) no-repeat 12px 0; }
+#TreeBtn:hover { background: url(img/icons/tree.jpg) no-repeat 12px 0; }
+#DribBtn { background: url(img/icons/dribOff.jpg) no-repeat 12px 0; }
+#DribBtn:hover { background: url(img/icons/drib.jpg) no-repeat 12px 0; }
+#GeekBtn { background: url(img/icons/geekOff.jpg) no-repeat 12px 0; }
+#GeekBtn:hover { background: url(img/icons/geek.jpg) no-repeat 12px 0; }
+#TwitBtn { background: url(img/icons/twitOff.jpg) no-repeat 12px 0; }
+#TwitBtn:hover { background: url(img/icons/twit.jpg) no-repeat 12px 0; }
 /* End contact */
 
 /* Accolades */
@@ -326,8 +332,8 @@ input.error {
     #ContactIcons {
         height: auto;
     }
-    #GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn, #TreeBtn,
-    #GitBtn:hover, #FaceBtn:hover, #JqueryBtn:hover, #LinkedBtn:hover, #GoogBtn:hover, #TreeBtn:hover {
+    #GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn, #TreeBtn, #DribBtn, #GeekBtn, #TwitBtn, 
+    #GitBtn:hover, #FaceBtn:hover, #JqueryBtn:hover, #LinkedBtn:hover, #GoogBtn:hover, #TreeBtn:hover, #DribBtn:hover, #GeekBtn:hover, #TwitBtn:hover {
         float: none;
         background: none;
         width: auto;
