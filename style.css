@@ -1,13 +1,13 @@
 body {
 	background: #252424 url('img/devilBack.jpg') no-repeat 548px 50px;
 	color:white;
-	font-family:Tahoma;
-	font-size:90%;
+	font-family:Marmelad;
+	font-size:100%;
     width: 1030px;
     margin: 15px;
 }
 a {
-    color:aqua;
+    color:orange;
     text-decoration: none;
 }
 .notFound {
@@ -21,13 +21,11 @@ a {
     height: 112px;
 }
 #TopModule {
-    width: 590px;
+    width: 615px;
     margin: 10px;
 }
-#TopModule p {
-    width: 560px;
-}
 .title {
+    font-family: Della Respira;
     font-size: 18pt;
     font-weight: bold;
 }
@@ -35,9 +33,13 @@ a {
     font-size: 12pt;
 }
 
+h1, h2, h3, h4, h5 {
+    color: #5397a6;
+    font-family: Della Respira;
+}
+
 /* Module navigation */
 h2 {
-    color: orange;
     text-shadow: -2px 2px 2px #000;
 }
 #Tabs {
@@ -47,7 +49,7 @@ h2 {
     font-size: 100%;
     font-weight: bold;
     cursor: pointer;
-    margin: 25px;
+    margin: 20px;
     text-shadow: -1px -1px 0 #000;
 }
 a:hover,
@@ -73,15 +75,15 @@ a:active {
     border-radius: 8px;
 }
 .moduleBody .title {
-    font-size: 100%;
+    font-size: 110%;
 }
 #ModuleFooter {
     margin-top:50px;
     text-align: right;
+    font-family:Della Respira;
 }
 h3 {
     font-size: 150%;
-    color: orange;
     text-shadow: -2px 2px 2px #000;
 }
 
@@ -90,7 +92,7 @@ h3 {
 /* work history */
 .workImage {
     float: left;
-    margin: 5px;
+    margin: 0 18px 0 5px;
 }
 .historyBody {
     clear: both;
@@ -247,8 +249,7 @@ input.error {
     background-color: white;
     width: 920px;
     color: black;
-    font-family: "Book Antiqua";
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .bubbleBottom {

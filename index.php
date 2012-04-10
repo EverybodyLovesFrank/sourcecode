@@ -16,6 +16,9 @@
 	<meta name="description" content="Frank Pernicano, Frank T. Pernicano, web developer, web applications developer" />
 	
 	<link type="text/css" rel="stylesheet" href="style.css" />
+	<!-- Google fonts, baby. The internet needs more open source goodness -->
+	<link href='http://fonts.googleapis.com/css?family=Della+Respira' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
 
 </head> 
  
@@ -71,8 +74,8 @@ else if (isset($_GET["formErrors"])) {
 	<div class="moduleBody">
 		<h3>Work history</h3>
 		<img class="workImage" src="img/disneyLogo.png" alt="Disney" />
-		<p><span class="title">Walt Disney Parks &amp; Resorts Online: Disney Internet Group<br />
-		Celebration,FL</span></p>
+		<p class="title">Walt Disney Parks &amp; Resorts Online: Disney Internet Group<br />
+		Celebration,FL</p>
 		<p class="historyBody">Responsibilities included technical design, development and maintenance of Disney websites using Tea (an open-source JSP-like language), Zend PHP, JavaScript, CSS, and XHTML. Server administration in multiple environments (local, development, QA, load/stress, and production). Design and maintenance of complex content objects in Disney's propietary content management system. Management of numerous small development teams (1-3 direct reports). Project management: Wireframe/comp reviews, functional specifications, code standards, documentation, and development/staging/build procedures to align with PCI Compliance. Took on the roll of project integration lead for site projects moving into the sustainment space, promoted to Senior Web Developer. Strong experience in Blueprint CSS, YUI, Prototype, and JQuery libraries.</p>
 		<hr />
 
