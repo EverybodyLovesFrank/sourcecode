@@ -268,7 +268,6 @@ else if (isset($_GET["formErrors"])) {
 </div>
 
 <script type="text/javascript">
-	// preloader for "frank around the web" buttons
 	gitb = new Image();
 	gitb.src = 'img/icons/git.jpg';
 	faceb = new Image();
@@ -279,8 +278,14 @@ else if (isset($_GET["formErrors"])) {
 	lnkb.src = 'img/icons/linked.jpg';
 	goob = new Image();
 	goob.src = 'img/icons/goog.jpg';
+	twit = new Image();
+	twit.src = 'img/icons/twit.jpg';
 	treeb = new Image();
 	treeb.src = 'img/icons/tree.jpg';
+	drib = new Image();
+	drib.src = 'img/icons/drib.jpg';
+	geek = new Image();
+	geek.src = 'img/icons/geek.jpg';
 </script>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
