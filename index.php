@@ -17,8 +17,8 @@
 	
 	<link type="text/css" rel="stylesheet" href="style.css" />
 	<!-- Google fonts, baby. The internet needs more open source goodness -->
-	<link href='http://fonts.googleapis.com/css?family=Della+Respira' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Della+Respira' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css' />
 
 </head> 
  
