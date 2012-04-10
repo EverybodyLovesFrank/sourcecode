@@ -1,9 +1,10 @@
 body {
-	background: #000;
+	background: #252424 url('img/devilBack.jpg') no-repeat 548px 50px;
 	color:white;
 	font-family:Tahoma;
 	font-size:90%;
     width: 1030px;
+    margin: 15px;
 }
 a {
     color:aqua;
@@ -13,30 +14,15 @@ a {
     font-weight: bold;
 }
 
-#QrImage {
-    background-image: url(img/frankQRThumb.gif);
-	float: right;
-	width: 70px;
-	height: 70px;
-	margin: 10px;
-    border: none;
-    cursor: pointer;
-}
-#QrLarge {
-    margin: 0 80px;
-}
 #BodyTitle {
-    background: url(img/header.png) no-repeat 0 0;
+    background: url(img/header2.png) no-repeat 0 0;
     text-indent:-9999px;
-    width: 489px;
-    height: 83px;
+    width: 438px;
+    height: 112px;
 }
 #TopModule {
-    background: url(img/topModule.jpg) no-repeat 0 0;
-    width: 1020px;
-    height: 302px;
-    border: none;
-    padding: 3px 22px;
+    width: 590px;
+    margin: 10px;
 }
 #TopModule p {
     width: 560px;
@@ -61,7 +47,7 @@ h2 {
     font-size: 100%;
     font-weight: bold;
     cursor: pointer;
-    margin: 30px;
+    margin: 25px;
     text-shadow: -1px -1px 0 #000;
 }
 a:hover,
@@ -78,7 +64,6 @@ a:active {
 #ModuleFooter,
 #ContactThanks {
     width: 1000px;
-    margin: 10px;
 }
 
 .moduleBody {
@@ -290,9 +275,6 @@ input.error {
     .tabs {
         margin-right: 15px;
     }
-    #QrImage {
-        display: none;
-    }
     #TopModule p {
         width: auto;
     }
@@ -366,7 +348,6 @@ input.error {
 /* hide all modules */
 #ModuleOther,
 #ModuleAcc,
-#QrLarge,
 #ModuleContact,
 .otherHidden {
     display: none;

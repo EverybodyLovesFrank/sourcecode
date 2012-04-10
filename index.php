@@ -30,10 +30,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div id="QrImage">
-</div>
-
-
 <h1 id="BodyTitle">EveryBodyLovesFrank</h1>
 
 <?php
@@ -56,9 +52,6 @@ else if (isset($_GET["formErrors"])) {
 	echo '</div>';
 }
 ?>
-<div id="QrLarge" class="moduleShowHide">
-	<img src="img/frankQR.gif" alt="My contact info" width="260" height="260" />
-</div>
 
 <div id="TopModule">
 	<h2>Web Application Architecture &amp; Development</h2>
@@ -294,17 +287,6 @@ else if (isset($_GET["formErrors"])) {
 		$("#ContactForm").validate();
 	});
 	// end form
-
-	// Qr show
-	$('#QrImage').click(function() {
-		$(".moduleShowHide").slideUp("slow");
-		if ($("div:#QrLarge").is(":hidden")) {
-			$("div:#QrLarge").slideDown("slow");
-		} else {
-			$("div:#QrLarge").slideUp("slow");
-		}
-	});
-	// end QR
 
 	// show hide modules
 	$('#ShowWorkHistory').click(function() {
