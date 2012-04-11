@@ -275,21 +275,9 @@ input.error {
         margin: 0;
     }
     .tabs {
-        margin-right: 15px;
+        margin-right: 8px;
     }
-    #TopModule p {
-        width: auto;
-    }
-    #TopModule {
-        background: none repeat scroll 0 0 #353535;
-        width: 415px;
-        height: 302px;
-        border: none;
-        padding: 3px 22px;
-        margin: 10px;
-        border-radius: 8px;
-    }
-    #ModuleWork, #ModuleOther, #ModuleAcc, #ModuleContact, #ModuleFooter, #ContactThanks {
+    #TopModule, #ModuleWork, #ModuleOther, #ModuleAcc, #ModuleContact, #ModuleFooter, #ContactThanks {
         width: auto;
     }
     .boxgrid {
