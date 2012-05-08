@@ -1,5 +1,5 @@
 body {
-	background: #252424 url('img/devilBack.jpg') no-repeat 548px 50px;
+	background: url("img/devilBack.jpg") no-repeat scroll 650px 30px #252424;
 	color:white;
 	font-family:Marmelad;
 	font-size:100%;
