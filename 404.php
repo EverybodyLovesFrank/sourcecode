@@ -1,32 +1,29 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" />
+<html>
+	<head>
+		<title> ^KeyboardDevil.com^ </title>
+		<meta name="Author" content="KeyboardDevil" />
+		<meta name="Description" content="Frank is the devil" />
+		<meta name="Keywords" content="Frank Pernicano, Frank T Pernicano, KeyboardDevil" />
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title> EverybodyLovesFrank.com: PAGE NOT FOUND </title>
-	<meta name="Author" content="Frank T. Pernicano" />
-	<meta name="description" content="Frank Pernicano, Frank T. Pernicano, web developer, web applications developer" />
-	<link type="text/css" rel="stylesheet" href="http://www.everybodylovesfrank.com/style.css" />
+		<!-- Google fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Metamorphous|Poiret+One" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Della+Respira' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css' />
+
+		<!-- Style sheet includes media selector for mobile overrides -->
+		<link type="text/css" rel="stylesheet" href="style.css" />
 </head>
  
 <body>
 
-<h1 id="BodyTitle">EveryBodyLovesFrank</h1>
+<div id="DevilHeader">
+	<h1><span class="horney">^</span>KeyboardDevil<span class="horney">^</span></h1>
 
-<div id="TopModule">
-	<p class="title">Page not found!</p>
-	<?php
-	echo '<p class="body">';
-	if(isset($_SERVER['HTTP_REFERER'])) {
-		echo 'The page that brought you here is: '.$_SERVER['HTTP_REFERER'];
-	}
-	else {
-		echo 'How\'d ya get here?  There is no page at this address!';
-	}
-	echo '</p>';
-	?>
+	<h2>Page not found!</h2>
+	<p>How'd ya get here?  There is no page at this address!</p>
 	
-	<p><a class="notFound" href="http://www.everybodylovesfrank.com">&lt;-- Go back to EveryBodyLovesFrank home page</a></p>
+	<p><a class="notFound" href="http://www.everybodylovesfrank.com">&lt;-- Go back to KeyboardDevil home page</a></p>
 </div>
 
 <div id="ModuleFooter">

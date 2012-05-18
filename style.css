@@ -1,11 +1,32 @@
+/* KeyboardDevil stylesheet */
+
 body {
-	background: url("img/devilBack.jpg") no-repeat scroll 650px 30px #252424;
-	color:white;
-	font-family:Marmelad;
-	font-size:100%;
-    width: 1030px;
-    margin: 15px;
+    background: #151515 url('img/devilBack.jpg') no-repeat 20px 20px fixed;
+    font-family: Della Respira;
+    color: #a1a1a1;
 }
+
+#DevilHeader {
+    width: 1000px;
+}
+
+.horney {
+    font-size: 20px;
+    vertical-align: 44px;
+}
+
+#DevilBody {
+    clear: both;
+    padding-top: 2px;
+}
+
+h1 {
+    font-family: Metamorphous;
+    font-size: 4em;
+    margin: 4px;
+    text-shadow: #333 -3px 0, #333 -3px -2px;
+}
+
 a {
     color:orange;
     text-decoration: none;
@@ -21,7 +42,7 @@ a {
     height: 112px;
 }
 #TopModule {
-    width: 615px;
+    width: 600px;
     margin: 10px;
 }
 .title {
@@ -34,7 +55,7 @@ a {
     font-size: 12pt;
 }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
     color: #5397a6;
     font-family: Della Respira;
 }
@@ -44,14 +65,14 @@ h2 {
     text-shadow: -2px 2px 2px #000;
 }
 #Tabs {
-    margin-top: 30px;
+    margin: 30px 0 8px 0;
 }
 .tabs {
-    font-size: 100%;
+    font-size: 125%;
     font-weight: bold;
     cursor: pointer;
-    margin: 20px;
     text-shadow: -1px -1px 0 #000;
+    padding: 20px;
 }
 a:hover,
 a:active {
@@ -107,7 +128,7 @@ hr {
 /* other sites */
 h4 {
     font-weight: bold;
-    margin: 5px;
+    margin: 6px;
 }
 .boxgrid { 
     width: 250px; 
@@ -132,9 +153,13 @@ h4 {
     width: 100%;
 }
 #OtherBox {
+    font-size: 12px;
     display: block;
     height: 650px;
     padding-left: 50px;
+}
+#OtherBox a {
+    font-size: 15px;
 }
 /* end other */
 
@@ -191,10 +216,27 @@ input.error {
     font-weight: bold;
     margin: 0;
 }
-#ContactIcons {
-    width: 100%;
-    height: 160px;
+#AroundTheWebOpener {
+    color: black;
+    float: right;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: url("img/frankOff.jpg") no-repeat;
+    color: #414141;
 }
+
+#AroundTheWebOpener p {
+    margin: 100px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+#AroundTheWebOpener:hover {
+    background: url("img/frankOn.jpg") no-repeat;
+    color: white;
+}
+
 #ContactSites {
     margin-top: 40px;
 }
@@ -209,11 +251,28 @@ input.error {
     padding: 15px 15px 0 0;
 }
 
+/* {{{ START Icons */
+#AroundTheWeb {
+    height: 160px;
+    width: 340px;
+    float: right;
+    /* jQuery fix */
+    margin-top: -50px;
+}
+
+#CloseAroundTheWeb {
+    color: yellow;
+    cursor: pointer;
+    margin: 4px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 #GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn, #TreeBtn, #DribBtn, #GeekBtn, #TwitBtn {
-    width: 46px;
-    height: 60px;
-    text-indent: -999px;
-    padding: 30px;
+    width: 44px;
+    height: 45px;
+    text-indent: -9999px;
+    padding: 26px;
     float: left;
 }
 #GitBtn { background: url(img/icons/gitOff.jpg) no-repeat 12px 0; }
@@ -234,7 +293,7 @@ input.error {
 #GeekBtn:hover { background: url(img/icons/geek.jpg) no-repeat 12px 0; }
 #TwitBtn { background: url(img/icons/twitOff.jpg) no-repeat 12px 0; }
 #TwitBtn:hover { background: url(img/icons/twit.jpg) no-repeat 12px 0; }
-/* End contact */
+/* }}} END Icons */
 
 /* Accolades */
 .bubbleTop {
@@ -265,7 +324,9 @@ input.error {
 }
 
 /* ######################
- Mobile overrides 
+ Mobile overrides
+ Responsive design based on
+ screen width
 ########################*/
 @media only screen and (max-width:1024px) {
     body {
@@ -286,7 +347,8 @@ input.error {
     .boxcaption {
         position: relative;
     }
-    #ContactRight {
+    #ContactRight,
+    #AroundTheWebOpener {
         display: none;
     }
     .bubbleTop, .bubbleBottom {
@@ -301,9 +363,6 @@ input.error {
     #ContactSites {
         margin: 40px 0;
     }
-    #ContactIcons {
-        height: auto;
-    }
     #GitBtn, #FaceBtn, #JqueryBtn, #LinkedBtn, #GoogBtn, #TreeBtn, #DribBtn, #GeekBtn, #TwitBtn, 
     #GitBtn:hover, #FaceBtn:hover, #JqueryBtn:hover, #LinkedBtn:hover, #GoogBtn:hover, #TreeBtn:hover, #DribBtn:hover, #GeekBtn:hover, #TwitBtn:hover {
         float: none;
@@ -312,9 +371,6 @@ input.error {
         height: auto;
         text-indent: 0;
         padding: 0;
-    }
-    #ContactIcons a {
-        margin-left: 10px;
     }
     .boxcaption, .cover {
         display: block
@@ -339,6 +395,7 @@ input.error {
 #ModuleOther,
 #ModuleAcc,
 #ModuleContact,
+#AroundTheWeb,
 .otherHidden {
     display: none;
 }
