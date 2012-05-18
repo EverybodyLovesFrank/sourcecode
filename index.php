@@ -1,7 +1,9 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" />
+<!DOCTYPE html>
+<!-- html 5 validated: http://validator.w3.org/check?uri=http%3A%2F%2Fwww.keyboarddevil.com%2F -->
 <html>
 	<head>
 		<title> ^KeyboardDevil.com^ </title>
+		<meta charset="utf-8" />
 		<meta name="Author" content="KeyboardDevil" />
 		<meta name="Description" content="Frank is the devil" />
 		<meta name="Keywords" content="Frank Pernicano, Frank T Pernicano, KeyboardDevil" />
@@ -74,7 +76,7 @@
 	<div id="DevilHeader">
 		<h1><span class="horney">^</span>KeyboardDevil<span class="horney">^</span></h1>
 
-		<span id="AroundTheWebOpener"><p>Where is Frank hanging out?</p></span>
+		<div id="AroundTheWebOpener"><p>Where is Frank hanging out?</p></div>
 		
 		<div id="AroundTheWeb">
 			<a href="https://github.com/EverybodyLovesFrank"><span id="GitBtn">GitHub</span></a>
