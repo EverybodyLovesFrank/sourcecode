@@ -3,7 +3,7 @@
 /*#######################################
 *
 *	Author: Frank T Pernicano
-*	formMail for EveryBodyLovesFrank.com
+*	formMail for keyboarddevil.com
 *
 ########################################*/
 
@@ -31,10 +31,10 @@ if ($mailName!='' && $email!='' && $message!='') {
 
 
 	mail( "frank@everybodylovesfrank.com", "ELF contact form",$emailbody, $headers );
-	header( "Location: http://www.everybodylovesfrank.com?contact=".$mailName );
+	header( "Location: http://www.keyboarddevil.com?contact=".$mailName );
 
 }
 else {
-	header( "Location: http://www.everybodylovesfrank.com?formErrors=true" );
+	header( "Location: http://www.keyboarddevil.com?formErrors=true" );
 }
 ?>
