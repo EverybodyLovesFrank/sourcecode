@@ -12,6 +12,7 @@ $okToSend = false;
 $mailName = $_REQUEST['name'];
 $email = $_REQUEST['email'];
 $phone = $_REQUEST['phone'];
+$validator = $_REQUEST['validator'];
 $message = $_REQUEST['message'];
 
 // clean up strings
@@ -21,7 +22,7 @@ $phone = ereg_replace("[^0-9]", "", $phone);
 $message = ereg_replace("[^A-Za-z0-9&_=:;,+-\.!?@#$%()' ]", "", $message);
 
 // server side errors
-if ($mailName!='' && $email!='' && $message!='') {
+if ($validator=='devil' && $mailName!='' && $email!='' && $message!='') {
 
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";

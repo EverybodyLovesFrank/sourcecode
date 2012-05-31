@@ -36,6 +36,9 @@
 			drib.src = 'img/icons/drib.jpg';
 			geek = new Image();
 			geek.src = 'img/icons/geek.jpg';
+			// preloader for Frank
+			frank = new Image();
+			frank.src= 'img/frankOn.jpg';
 		</script>
 	</head>
 
@@ -262,6 +265,10 @@
 						<tr>
 							<td class="topAlign"><label for="message">Message:</label></td>
 							<td><textarea rows="2" cols="30" id="message" name="message" class="required"></textarea></td>
+						</tr>
+						<tr>
+							<td><label for="email">Type the word<br />"devil" here:</label></td>
+							<td><input type="text" name="validator" id="validator" class="required validator" /></td>
 						</tr>
 						<tr>
 							<td colspan="2"><input class="submit" type="submit" name="submit" value="Send it" /></td>
