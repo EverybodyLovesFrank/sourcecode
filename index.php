@@ -189,15 +189,6 @@
 							<p>(Site currently offline)</p>
 						</div>		
 					</div>
-
-					<!-- <div class="boxgrid captionfull">
-						<img class="img" src="img/other/el.jpg" alt="Everybody Loves Frank" />
-						<div class="cover boxcaption">
-							<h4>EverybodyLovesFrank</h4>
-							<p>This site!  XHTML, CSS, PHP, and jQuery JavaScript</p>
-							<p><a href="http://www.everybodylovesfrank.com">EverybodyLovesFrank.com</a></p>
-						</div>
-					</div> -->
 				</div>
 			</div>
 		</div>
@@ -244,7 +235,7 @@
 			<div id="ModuleContact" class="moduleShowHide">
 				<div class="moduleBody">
 					<div id="ContactRight">
-						<div class="fb-like-box" data-href="https://www.facebook.com/pages/EverybodyLovesFrank/235742986487391" data-width="200" data-height="350" data-colorscheme="dark" data-show-faces="true" data-stream="false" data-header="true"></div>
+						<div class="fb-like-box" data-href="https://www.facebook.com/pages/KeyboardDevil/235742986487391" data-width="200" data-height="350" data-colorscheme="dark" data-show-faces="true" data-stream="false" data-header="true"></div>
 					</div>
 
 					<form id="ContactForm" method="post" action="formMail.php">
@@ -282,7 +273,7 @@
 		<div class="moduleParent">
 			<div id="ModuleFooter">
 				<div class="moduleBody">
-					&copy; <?php echo date('Y'); ?> Frank T Pernicano | frank@everybodylovesfrank.com
+					&copy; <?php echo date('Y'); ?> Frank T Pernicano | frank@keyboarddevil.com
 				</div>
 			</div>
 		</div>

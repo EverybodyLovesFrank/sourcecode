@@ -23,7 +23,7 @@
 	<h2>Page not found!</h2>
 	<p>How'd ya get here?  There is no page at this address!</p>
 	
-	<p><a class="notFound" href="http://www.everybodylovesfrank.com">&lt;-- Go back to KeyboardDevil home page</a></p>
+	<p><a class="notFound" href="http://www.keyboarddevil.com">&lt;-- Go back to KeyboardDevil home page</a></p>
 </div>
 
 <div id="ModuleFooter">
