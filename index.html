@@ -155,15 +155,10 @@
 		<!--<h3>What's on draft?</h3> -->
 		<p class="about-text">We make beer we like to drink, but don't worry...  We'll make beer you like to drink too. We always thought it was a fun process brewing new beers, trading different styles in and out to create a set of flagships. The goal here at Leaven is to become a neighborhood brewery with a hyper-local mindset. At this time we have no intention of distribution (KJ did enough of that at previous locations.) We're here to make beer for you, Riverview! Join us at the bar, tell us the styles you like. Let's start a great conversation about beer and figure out our core beers <strong>together</strong>. </p>
 		<p class="about-text">We aim to have 5 flagships which will be on at all times, and 5 rotational beers that will lend themselves to a more seasonal flair.</p>
-		<?php
-			echo "<ul>";
-			$fileString = file_get_contents('beers.txt');
-			echo '<li>';
-			$beerString = str_replace("\n","</li><li>",$fileString);
-			echo $beerString;
-			echo '</li>';
-			echo "</ul>";
-		?>
+		<ul>
+			<li>Blonde Ale -  clean and crisp mouthfeel, gold by appearance, hints of floral and fruity notes 24 IBU, 5% ABV</li>
+			<li>Red Ale - medium bodied Irish red, with caramel flavors and hints of roast 30 IBU, 6.7% ABV</li>
+		</ul>
 		<!--<p class="section-description"><img src="img/barley.png" alt="" width="100"><img src="img/stout.png" alt="" width="100"><img src="img/ipa.png" alt="" width="100"><img src="img/brown.png" alt="" width="100"><img src="img/creamAle.png" alt="" width="100"><img src="img/barley.png" alt="" width="100"><img src="img/stout.png" alt="" width="100"><img src="img/ipa.png" alt="" width="100"><img src="img/brown.png" alt="" width="100"></p> -->
 		</div>
 	</div>
